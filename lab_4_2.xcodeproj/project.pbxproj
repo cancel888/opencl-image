@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1150E6AB1AF10F3E00B4B102 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1150E6AA1AF10F3E00B4B102 /* main.cpp */; };
+		1150E6B21AF10F5000B4B102 /* kernel.cl in Sources */ = {isa = PBXBuildFile; fileRef = 1150E6B11AF10F5000B4B102 /* kernel.cl */; };
+		1150E6B41AF1137F00B4B102 /* libopencv_core.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1150E6B31AF1137F00B4B102 /* libopencv_core.2.4.11.dylib */; };
+		1150E6BB1AF113BC00B4B102 /* libopencv_gpu.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1150E6B51AF113BC00B4B102 /* libopencv_gpu.2.4.11.dylib */; };
+		1150E6BC1AF113BC00B4B102 /* libopencv_highgui.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1150E6B61AF113BC00B4B102 /* libopencv_highgui.2.4.11.dylib */; };
+		1150E6BD1AF113BC00B4B102 /* libopencv_imgproc.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1150E6B71AF113BC00B4B102 /* libopencv_imgproc.2.4.11.dylib */; };
+		1150E6BE1AF113BC00B4B102 /* libopencv_ml.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1150E6B81AF113BC00B4B102 /* libopencv_ml.2.4.11.dylib */; };
+		1150E6BF1AF113BC00B4B102 /* libopencv_nonfree.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1150E6B91AF113BC00B4B102 /* libopencv_nonfree.2.4.11.dylib */; };
+		1150E6C01AF113BC00B4B102 /* libopencv_objdetect.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1150E6BA1AF113BC00B4B102 /* libopencv_objdetect.2.4.11.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,14 @@
 /* Begin PBXFileReference section */
 		1150E6A71AF10F3E00B4B102 /* lab_4_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab_4_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		1150E6AA1AF10F3E00B4B102 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1150E6B11AF10F5000B4B102 /* kernel.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = kernel.cl; sourceTree = "<group>"; };
+		1150E6B31AF1137F00B4B102 /* libopencv_core.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.11.dylib; path = ../../../../opt/local/lib/libopencv_core.2.4.11.dylib; sourceTree = "<group>"; };
+		1150E6B51AF113BC00B4B102 /* libopencv_gpu.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_gpu.2.4.11.dylib; path = ../../../../opt/local/lib/libopencv_gpu.2.4.11.dylib; sourceTree = "<group>"; };
+		1150E6B61AF113BC00B4B102 /* libopencv_highgui.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.11.dylib; path = ../../../../opt/local/lib/libopencv_highgui.2.4.11.dylib; sourceTree = "<group>"; };
+		1150E6B71AF113BC00B4B102 /* libopencv_imgproc.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.11.dylib; path = ../../../../opt/local/lib/libopencv_imgproc.2.4.11.dylib; sourceTree = "<group>"; };
+		1150E6B81AF113BC00B4B102 /* libopencv_ml.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ml.2.4.11.dylib; path = ../../../../opt/local/lib/libopencv_ml.2.4.11.dylib; sourceTree = "<group>"; };
+		1150E6B91AF113BC00B4B102 /* libopencv_nonfree.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_nonfree.2.4.11.dylib; path = ../../../../opt/local/lib/libopencv_nonfree.2.4.11.dylib; sourceTree = "<group>"; };
+		1150E6BA1AF113BC00B4B102 /* libopencv_objdetect.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_objdetect.2.4.11.dylib; path = ../../../../opt/local/lib/libopencv_objdetect.2.4.11.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1150E6BD1AF113BC00B4B102 /* libopencv_imgproc.2.4.11.dylib in Frameworks */,
+				1150E6BC1AF113BC00B4B102 /* libopencv_highgui.2.4.11.dylib in Frameworks */,
+				1150E6BF1AF113BC00B4B102 /* libopencv_nonfree.2.4.11.dylib in Frameworks */,
+				1150E6B41AF1137F00B4B102 /* libopencv_core.2.4.11.dylib in Frameworks */,
+				1150E6BB1AF113BC00B4B102 /* libopencv_gpu.2.4.11.dylib in Frameworks */,
+				1150E6C01AF113BC00B4B102 /* libopencv_objdetect.2.4.11.dylib in Frameworks */,
+				1150E6BE1AF113BC00B4B102 /* libopencv_ml.2.4.11.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +64,13 @@
 		1150E69E1AF10F3E00B4B102 = {
 			isa = PBXGroup;
 			children = (
+				1150E6B51AF113BC00B4B102 /* libopencv_gpu.2.4.11.dylib */,
+				1150E6B61AF113BC00B4B102 /* libopencv_highgui.2.4.11.dylib */,
+				1150E6B71AF113BC00B4B102 /* libopencv_imgproc.2.4.11.dylib */,
+				1150E6B81AF113BC00B4B102 /* libopencv_ml.2.4.11.dylib */,
+				1150E6B91AF113BC00B4B102 /* libopencv_nonfree.2.4.11.dylib */,
+				1150E6BA1AF113BC00B4B102 /* libopencv_objdetect.2.4.11.dylib */,
+				1150E6B31AF1137F00B4B102 /* libopencv_core.2.4.11.dylib */,
 				1150E6A91AF10F3E00B4B102 /* lab_4_2 */,
 				1150E6A81AF10F3E00B4B102 /* Products */,
 			);
@@ -58,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				1150E6AA1AF10F3E00B4B102 /* main.cpp */,
+				1150E6B11AF10F5000B4B102 /* kernel.cl */,
 			);
 			path = lab_4_2;
 			sourceTree = "<group>";
@@ -119,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1150E6AB1AF10F3E00B4B102 /* main.cpp in Sources */,
+				1150E6B21AF10F5000B4B102 /* kernel.cl in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +234,15 @@
 		1150E6AF1AF10F3E00B4B102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/opt/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +250,15 @@
 		1150E6B01AF10F3E00B4B102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/opt/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +282,7 @@
 				1150E6B01AF10F3E00B4B102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
